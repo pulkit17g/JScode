@@ -1,0 +1,106 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: lightslategrey; /* Dark blue background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+ 
+  
+  h1 {
+    color: #fff; /* White text color */
+  }
+
+  input{
+      width: 50%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-right: 10px;
+      margin-top: 2px;
+  }
+
+  
+  /* Styling for the user controls */
+  #userControls {
+    margin-bottom: 20px;
+    background-color: #333; 
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  /* Styling for the Add Users form */
+  #addUserForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  
+  #addUserButton {
+    padding: 5px 10px;
+    background-color: #4b8dbe; 
+    color: #fff; 
+    border: none;
+    cursor: pointer;
+  }
+
+  #addUserButton:hover{
+    background-color: #2c8eda;
+  }
+  
+  /* Styling for the User List container */
+  #usersList {
+    margin-top: 20px;
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 80%;
+    overflow: auto;
+    margin-top: 2px;
+  }
+  
+  /* Styling for the delete button */
+  .delete-button {
+    background-color: #c74c4cd8; 
+    color: #fff; 
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 4px ;
+    border-radius: 4px;
+    margin-top: 4px;
+  }
+  .delete-button:hover{
+      background-color: #e04343e3;
+  }
+  
+  /* Styling for pagination controls */
+  #pagination {
+    margin-top: 20px;
+  }
+
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 768px) {
+    #userControls {
+      width: 90%;
+      max-width: 400px;
+    }
+  
+    #usersList {
+      width: 90%;
+      max-width: 400px;
+    }
+  }
+  
